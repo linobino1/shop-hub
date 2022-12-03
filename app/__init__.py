@@ -1,6 +1,6 @@
 import logging
 from flask import Flask
-from app import ext
+from app import ext, models
 
 
 logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
